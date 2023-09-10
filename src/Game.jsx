@@ -15,8 +15,3 @@ export default function Game({onClickVariant, question, step, questions}) {
        </div>
     )
 }
-
-
-
-
-

@@ -30,7 +30,7 @@ function App() {
     },
     {
       title: 'Canada',
-      variants: ['Toronto', 'Washington', 'Chicago', 'Ankara'],
+      variants: ['Ottawa', 'Washington', 'Chicago', 'Ankara'],
       correct: 0
     },
     {
