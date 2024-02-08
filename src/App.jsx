@@ -88,14 +88,11 @@ function App() {
   const question = questions[step];
 
   const onClickVariant = (index) => {
-    console.log(step)
+    
     setStep(prevStep => prevStep + 1)
     if (index === question.correct) {
       setCorrect(prevCorrect => prevCorrect + 1)
-      setSelectedOption('correct');
-    } else {
-      setSelectedOption('incorrect')
-    }
+    } 
   }
 
   const playAgain = () => {
